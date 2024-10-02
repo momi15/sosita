@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="Ar-It">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parenbtNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TFVWZZB');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selezione la lingua</title>
+    <meta name="description" content="BENVENUTO NEL SITO DELLA LINGUA">
+    <meta name="google-site-verification" content="xDfcgE7Eiq4I5njpatS4bcEdNVT74lznJBC0milISBQ">
+    <link rel="shortcut icon" href="icona.ico" type="image/x-icon">
+</head>
+<body>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap');
+	@media screen and (max-width: 750px){
+        .lingue{
+          text-shadow:
+            0px 0px 5px black,
+            0px 0px 15px black;
+          margin-bottom: 5%;
+          font-size: 200%;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 30px;
+          width: 30%;
+        }
+        #cinese{
+          background-size: 100% !important;
+        }
+        h1{
+          font-size: 350% !important;
+        }
+      }
+      *{
+        word-wrap: break-word;
+      }
+      h1{
+        animation: cambiamento 5s alternate infinite;
+        font-family: "Hepta Slab";
+        font-size: 500%;
+      }
+      h1,h2{
+        text-align: center;
+        color: white;
+      }
+      body{
+        background-color: rgb( 48, 51, 59);
+        word-wrap: break-word;
+      }
+      button{
+        margin-bottom: 5%;
+        font-size: 500%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        word-wrap: break-word;
+        border-radius: 30px;
+        width: 50%;
+      }
+      #ucraino{
+        background: linear-gradient(0deg, rgba(252,222,70,1) 47%, rgba(63,94,251,1) 47%); 
+
+      }
+      #spagnolo{
+        background: linear-gradient(0deg, rgba(255,69,0,1) 20%, rgba(255,248,0,1) 20%, rgba(255,248,0,1) 80%, rgba(255,69,0,1) 80%); 
+      }
+      #cinese{
+        background-image: url('bandiera.png');
+        background-size: cover;
+        background-size: 40%;
+        background-color: red;
+        background-repeat: no-repeat;
+      }
+      #francese{
+        background: linear-gradient(90deg, rgba(12,0,255,1) 39%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 64%, rgba(255,0,0,1) 65%); 
+      }
+      a{
+        text-decoration: none;
+      }
+      @keyframes cambiamento {
+          0% {
+            font-weight: 1;
+            transform: translateY(10px);
+          }
+          50% {
+            font-weight: 900;
+            transform: translateY(-10px);
+          }
+          100% {
+            font-weight: 1;
+            transform: translateY(10px);
+          }
+        }
+        button{
+          text-shadow:
+            0px 0px 5px black,
+            0px 0px 15px black;
+        }
+        #inglese{
+          background-image: url('inglese_bandiera.png');
+          background-size:100% 100%;
+          background-repeat: no-repeat;
+        }
+    </style>
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFVWZZB"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1 id="titolo">BENVENUTO</h1>
+    <a href="mailto:sosita@altervista.org">
+        <h2>per suggerimenti/segnalare eventuali bug,schiacciare qui</h2>
+    </a>
+    <h2>seleziona la tua lingua:</h2>
+    <a href="./ucraino/ucraino.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="ucraino">ucraino/український</button>
+    </a>
+    <a href="./spagnolo/spagnolo.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="spagnolo">spagnolo/español</button>
+    </a>
+    <!-- <a href="./ghanese/index.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="ghanese">ghanese/</button>
+    </a> -->
+    <a href="./cinese/index.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="cinese">cinese/中国人</button>
+    </a>
+    <!-- <a href="./indiano/index.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="indiano">indiano/</button>
+    </a>
+    <a href="./arabo/index.html" target="_blank" rel="noopener noreferrer">
+        <button class="lingue" id="arabo">arabo/</button>
+    </a> -->
+    <a href="./francese/index.html" target="_blank" rel="noopener noreferrer">
+      <button class="lingue" id="francese">francese/Français</button>
+  </a>
+  <a href="./inglese/index.html" target="_blank" rel="noopener noreferrer">
+    <button class="lingue" id="inglese">inglese/english</button>
+  </a>
+</body>
+</html>
